@@ -39,6 +39,11 @@ return [
             'title' => ' People'
         ],
         //end_Person_end
+        //start_Job_start
+        'jobs' => [
+            'title' => ' Jobs'
+        ],
+        //end_Job_end
         // Do not delete me :) I'm used for auto-generation
 
         'general' => [
