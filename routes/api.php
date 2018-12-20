@@ -21,4 +21,9 @@ Route::resource('person', 'API\PersonAPIController');
 
 //end_Person_end
 
+//start_Job_start
+Route::resource('job', 'API\JobAPIController');
+
+//end_Job_end
+
 //*****Do Not Delete Me

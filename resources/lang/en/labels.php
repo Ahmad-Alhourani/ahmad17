@@ -134,8 +134,30 @@ return [
                 'deleted_at' => 'Deleted At',
                 'last_updated' => 'Last Update'
             ]
-        ]
+        ],
         //end_Person_end
+
+        //start_Job_start
+        'jobs' => [
+            'management' => ' Jobs Management',
+            'create' => 'Create Job',
+            'view' => 'View Job',
+            'edit' => 'Edit Job',
+
+            'table' => [
+                'id' => "Id",
+                'name' => "Job Name",
+                'sort' => 'Sort',
+                'total' => ' Jobs total| Jobs total'
+            ],
+
+            'content' => [
+                'created_at' => 'Created At',
+                'deleted_at' => 'Deleted At',
+                'last_updated' => 'Last Update'
+            ]
+        ]
+        //end_Job_end
 
         // Do not delete me :) I'm used for auto-generation
     ],

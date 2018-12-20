@@ -200,8 +200,14 @@ return [
                 'id' => "Id",
                 'name' => "Name",
                 'description' => "Description"
-            ]
+            ],
             //end_Person_end
+            //start_Job_start
+            'jobs' => [
+                'id' => "Id",
+                'name' => "Job Name"
+            ]
+            //end_Job_end
             // Do not delete me :) I'm used for auto-generation
         ],
 
