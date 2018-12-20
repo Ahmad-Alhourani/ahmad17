@@ -49,8 +49,16 @@ return [
             'saved' => 'Person saved successfully.',
             'updated' => 'Person updated successfully.',
             'deleted' => 'Person deleted successfully.'
-        ]
+        ],
         //end_Person_end
+
+        //start_Job_start
+        'job' => [
+            'saved' => 'Job saved successfully.',
+            'updated' => 'Job updated successfully.',
+            'deleted' => 'Job deleted successfully.'
+        ]
+        //end_Job_end
 
         // Do not delete me :) I'm used for auto-generation
     ]

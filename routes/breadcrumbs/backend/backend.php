@@ -41,6 +41,40 @@ Breadcrumbs::register('admin.person.edit', function ($breadcrumbs, $id) {
 });
 //end_Person_end
 
+//start_Job_start
+Breadcrumbs::register('admin.job.index', function ($breadcrumbs) {
+    $breadcrumbs->parent('admin.dashboard');
+    $breadcrumbs->push(
+        __('strings.backend.jobs.title'),
+        route('admin.job.index')
+    );
+});
+
+Breadcrumbs::register('admin.job.create', function ($breadcrumbs) {
+    $breadcrumbs->parent('admin.job.index');
+    $breadcrumbs->push(
+        __('labels.backend.jobs.create'),
+        route('admin.job.create')
+    );
+});
+
+Breadcrumbs::register('admin.job.show', function ($breadcrumbs, $id) {
+    $breadcrumbs->parent('admin.job.index');
+    $breadcrumbs->push(
+        __('menus.backend.jobs.view'),
+        route('admin.job.show', $id)
+    );
+});
+
+Breadcrumbs::register('admin.job.edit', function ($breadcrumbs, $id) {
+    $breadcrumbs->parent('admin.job.index');
+    $breadcrumbs->push(
+        __('menus.backend.jobs.edit'),
+        route('admin.job.edit', $id)
+    );
+});
+//end_Job_end
+
 //*****Do Not Delete Me
 
 require __DIR__ . '/auth.php';
