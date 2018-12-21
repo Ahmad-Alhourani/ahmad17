@@ -49,8 +49,11 @@ return [
             'system' => 'System',
 
             //begin_Person_begin
-            'persons' => ' People'
+            'persons' => ' People',
             //finish_Person_finish
+            //begin_Job_begin
+            'jobs' => ' Jobs'
+            //finish_Job_finish
             // **********Do_Not_Delete_me****************
         ],
 
@@ -62,8 +65,19 @@ return [
             'edit' => 'Edit Person',
             'management' => 'Person Management',
             'main' => ' People'
-        ]
+        ],
         //end_Person_end
+
+        //start_Job_start
+        'jobs' => [
+            'view' => 'View Job',
+            'all' => 'All  Jobs',
+            'create' => 'Create Job',
+            'edit' => 'Edit Job',
+            'management' => 'Job Management',
+            'main' => ' Jobs'
+        ]
+        //end_Job_end
 
         // Do not delete me :) I'm used for auto-generation
     ],
