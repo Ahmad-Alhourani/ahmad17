@@ -10,6 +10,12 @@
             </li>
 
 
+        {{--start_Person_start--}}
+            <li class="nav-item">
+                <a class="nav-link {{ active_class(Active::checkUriPattern('admin/persons')) }}" href=" {{ route('admin.person.index') }}"><i class="icon-list"></i> {{ __('menus.backend.sidebar.persons') }}</a>
+            </li>
+            {{--end_Person_end--}}
+
 {{--Do not delete me :) I'm used for auto-generation--}}
 
             <li class="nav-title">
